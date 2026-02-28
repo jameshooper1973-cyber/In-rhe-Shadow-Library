@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resource Library</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Gothic', sans-serif;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .column {
+            width: 48%;
+            margin: 1%;
+        }
+        .card {
+            background-color: white;
+            border: 1px solid red;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+        .audio-player {
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            .column {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="column">
+        <h1>MP3 Files</h1>
+        <div class="card">
+            <h2>Audio Title 1</h2>
+            <audio class="audio-player" controls>
+                <source src="path/to/audio1.mp3" type="audio/mpeg">
+                Your browser does not support the audio tag.
+            </audio>
+        </div>
+        <div class="card">
+            <h2>Audio Title 2</h2>
+            <audio class="audio-player" controls>
+                <source src="path/to/audio2.mp3" type="audio/mpeg">
+                Your browser does not support the audio tag.
+            </audio>
+        </div>
+        <!-- Add more audio players as needed -->
+    </div>
+
+    <div class="column">
+        <h1>PDFs and Images</h1>
+        <div class="card">
+            <h2>PDF Title 1</h2>
+            <a href="path/to/document1.pdf">Download PDF</a>
+        </div>
+        <div class="card">
+            <h2>Image Title 1</h2>
+            <img src="path/to/image1.jpg" alt="Image 1" style="width:100%;">
+        </div>
+        <!-- Add more PDFs and images as needed -->
+    </div>
+
+</body>
+</html>
