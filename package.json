@@ -1,0 +1,1 @@
+{\n  "name": "in-the-shadow-library",\n  "version": "1.0.0",\n  "description": "Gothic themed library with PDFs, images, and audio",\n  "main": "index.html",\n  "scripts": {\n    "start": "python -m http.server",\n    "build": "echo 'Building the project...'"\n  },\n  "keywords": ["gothic", "library", "static"],\n  "author": "jameshooper1973-cyber",\n  "license": "MIT"\n}
